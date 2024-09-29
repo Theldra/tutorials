@@ -24,3 +24,7 @@ button{
     background-color: aqua;
     border: none;
 }
+
+.mainn{
+    display: flex;
+}
