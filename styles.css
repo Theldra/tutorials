@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    background-color: rgb(1, 36, 36);
 }
 
 nav{
@@ -19,7 +20,7 @@ ul {
 }
 
 button{
-    padding: 5px;
+    padding: 10px;
     color: white;
     background-color: aqua;
     border: none;
@@ -27,4 +28,69 @@ button{
 
 .mainn{
     display: flex;
+    padding: 100px 100px;
+    justify-content: space-evenly;
+}
+
+.m-p{
+    padding-bottom: 30px;
+    letter-spacing: 10px;
+    font-size: 2.5rem; 
+}
+
+.text-box{
+    padding: 150px;
+    text-align: justify;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.p-btn{
+    padding-top: 30px;   
+}
+
+.about{
+   display: flex; 
+   padding: 100px;
+}
+
+.abt-desc{
+    padding: 50px;
+    font-size: 1.2rem;
+    margin-left: 70px;
+    color: white;
+}
+
+.abt-desc h2{
+    padding-bottom: 30px;  
+}
+
+.abt-desc p{
+    padding-top: 10px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.pwd{
+    padding: 10px;
+    background-color: rgb(4, 32, 32);
+    border-radius: 15px;
+}
+
+.ps{
+    padding: 10px;
+    background-color: rgb(4, 32, 32);
+    border-radius: 15px; 
+}
+
+.tp{
+    padding: 10px;
+    background-color: rgb(4, 32, 32);
+    border-radius: 15px;
+}
+
+.dte{
+    padding: 10px;
+    background-color: rgb(4, 32, 32);
+    border-radius: 15px;
 }
