@@ -49,15 +49,10 @@ button{
     padding-top: 30px;   
 }
 
-.about{
-   display: flex; 
-   padding: 70px;
-}
-
 .abt-desc{
     padding: 20px;
     font-size: 1.2rem;
-    margin-left: 70px;
+    margin: 70px;
     color: white;
 }
 
@@ -66,48 +61,36 @@ button{
 }
 
 .abt-desc p{
-    padding-top: 10px;
-    line-height: 30px;
-    margin-bottom: 30px;
+    padding-top: 15px;
+    /* line-height: 30px; */
+    /* margin-bottom: 30px; */
 }
 
 .pwd{
-    padding: 10px;
-    background-color: rgb(4, 32, 32);
+    /* padding: 30px; */
     border-radius: 15px;
+    text-align: center;
 }
-
-.ps{
-    padding: 10px;
-    background-color: rgb(4, 32, 32);
-    border-radius: 15px; 
-}
-
-.tp{
-    padding: 10px;
-    background-color: rgb(4, 32, 32);
-    border-radius: 15px;
-}
-
-.dte{
-    padding: 10px;
-    background-color: rgb(4, 32, 32);
-    border-radius: 15px;
+.pwd div{
+    font-size: 1.4rem;
+    padding: 30px;
+    border-radius: 40px;
 }
 
 .skills{
     color: white;
     padding: 70px;
-    
+    padding-right: 70px; 
 }
 .skills h2{
     text-align: center;
 }
 .skills ul{
     display: grid;
-    color: white;
+    font-size: 16px;
 }
 .skills h5{
     font-size: 20px;
-   margin-right: 70px;
+    padding-bottom: 25px;
+   
 }
