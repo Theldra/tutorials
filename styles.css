@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background-color: rgb(1, 36, 36);
+    background-color: #2281;
 }
 
 nav{
@@ -51,11 +51,11 @@ button{
 
 .about{
    display: flex; 
-   padding: 100px;
+   padding: 70px;
 }
 
 .abt-desc{
-    padding: 50px;
+    padding: 20px;
     font-size: 1.2rem;
     margin-left: 70px;
     color: white;
@@ -93,4 +93,21 @@ button{
     padding: 10px;
     background-color: rgb(4, 32, 32);
     border-radius: 15px;
+}
+
+.skills{
+    color: white;
+    padding: 70px;
+    
+}
+.skills h2{
+    text-align: center;
+}
+.skills ul{
+    display: grid;
+    color: white;
+}
+.skills h5{
+    font-size: 20px;
+   margin-right: 70px;
 }
