@@ -22,13 +22,15 @@ ul {
 button{
     padding: 10px;
     color: white;
-    background-color: aqua;
+    background-color: rgb(59, 79, 110);
+    border-radius:10px;
     border: none;
+    font-size: medium;
 }
 
 .mainn{
     display: flex;
-    padding: 100px 100px;
+    padding: 100px;
     justify-content: space-evenly;
 }
 
@@ -45,8 +47,21 @@ button{
     color: white;
 }
 
-.p-btn{
-    padding-top: 30px;   
+.pass{
+    padding-bottom: 50px;
+    font-size: 27px;
+}
+.view{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+}
+.get{
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    font-size: medium;
 }
 
 .abt-desc{
@@ -57,11 +72,13 @@ button{
 }
 
 .abt-desc h2{
-    padding-bottom: 30px;  
+    padding-bottom: 30px; 
+    text-align: center; 
 }
 
 .abt-desc p{
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-bottom:10px ;
     /* line-height: 30px; */
     /* margin-bottom: 30px; */
 }
@@ -81,16 +98,28 @@ button{
     color: white;
     padding: 70px;
     padding-right: 70px; 
+    padding-left: 70px;
 }
 .skills h2{
     text-align: center;
+    padding-bottom: 50px;
+    font-size: 28px;
 }
 .skills ul{
     display: grid;
-    font-size: 16px;
+    font-size: 20px;
 }
 .skills h5{
-    font-size: 20px;
-    padding-bottom: 25px;
-   
+    font-size: 24px;
+    padding-bottom: 25px; 
+}
+.exprnc{
+    padding: 70px;
+    color: white;
+}
+.proj.{
+color: white;
+padding: 50px;
+display: flex;
+
 }
